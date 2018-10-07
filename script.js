@@ -33,6 +33,7 @@ function hexToRGB(hexColor) {
     } else {
         return false;
     }
+    console.log( `(${r}, ${g}, ${b})` );
     return `(${r}, ${g}, ${b})`;
 }
 
@@ -74,7 +75,12 @@ function rgbToHex(rgbColor) {
     /* Concatenating final hex number */
     hexColor = `#${hexArray[0]}${hexArray[1]}${hexArray[2]}`;
 
+    console.log(hexColor);
     return hexColor;
 }
 
-conversion('(255, 5, 0)');
+// conversion('(255, 5, 0)');
+// conversion('#ff0500');
+
+console.log("Copy paste the code below into the console and replace placeholder with color code you want to convert. Make sure to add it within string brackets.")
+console.log("conversion('pase-color-code-here');")
