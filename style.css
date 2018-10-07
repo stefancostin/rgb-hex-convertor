@@ -1,0 +1,14 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #999999;
+    letter-spacing: -0.25px;
+    text-align: center;
+    line-height: 88vh;
+}
+
+span {
+    font-weight: 700;
+    color: #666666
+}
