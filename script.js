@@ -82,5 +82,5 @@ function rgbToHex(rgbColor) {
 // conversion('(255, 5, 0)');
 // conversion('#ff0500');
 
-console.log("Copy paste the code below into the console and replace placeholder with color code you want to convert. Make sure to add it within string brackets.")
-console.log("conversion('pase-color-code-here');")
+console.log("Copy paste the code below into the console and replace placeholder with the color code you want to convert.")
+console.log("conversion('paste-color-code');")
